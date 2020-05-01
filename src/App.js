@@ -13,6 +13,10 @@ function App() {
     label: "Avatar",
     key: "avatar_url"
   },
+    {
+    label: "Id",
+    key: "id"
+  },
 ]
   const [users, setUsers] = useState([])
   useEffect(() => {
